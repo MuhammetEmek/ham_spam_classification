@@ -48,7 +48,7 @@ DATA_FOLDERS = [
     ("Data/enron4/spam", SPAM ),
     ("Data/enron5/ham", HAM ), 
     ("Data/enron5/spam", SPAM ),
-	  ("Data/enron6/ham", HAM ), 
+    ("Data/enron6/ham", HAM ), 
     ("Data/enron6/spam", SPAM )]
 
 
