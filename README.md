@@ -6,12 +6,13 @@ In this comparative study, some of the popular machine learning algorithms train
 
 The main goal of this study is to design and develop a content based spam-ham classification system for emails, also to compare classifiers whether which is more efficient and reliable. Python programming language with Nltk and Scikitlearn modules was used for project implementation
 
-Python (3.8)
-Spyder
-Scikit-Learn, numpy, pandas, glob, statistics
-Nltk (Stopwords, Lemmatizer)
-WordCloud, Matplotlib.pyplot  (Visualization)
-k-Fold Cross-Validation (Stratified)
-Pipelines
-Feature exctractor : TfidfVectorizer
-Classifiers : MultinomialNB, LinearSVC, RandomForestClassifier
+# Tools & Techniques
+* Python (3.8)
+* Spyder
+* Scikit-Learn, numpy, pandas, glob, statistics
+* Nltk (Stopwords, Lemmatizer)
+* WordCloud, Matplotlib.pyplot  (Visualization)
+* k-Fold Cross-Validation (Stratified)
+* Pipelines
+* Feature exctractor : TfidfVectorizer
+* Classifiers : MultinomialNB, LinearSVC, RandomForestClassifier
