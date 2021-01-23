@@ -8,14 +8,18 @@ The main goal of this study is to design and develop a content based spam-ham cl
 
 # Tools & Techniques
 * Python (3.8)
-* Spyder
-* Scikit-Learn, numpy, pandas, glob, statistics
-* Nltk (Stopwords, Lemmatizer)
-* WordCloud, Matplotlib.pyplot  (Visualization)
-* k-Fold Cross-Validation (Stratified)
+* Spyder IDE
+* Scikit-Learn, numpy, pandas, glob, statistics, nltk
 * Pipelines
+* Stratified k-Fold Cross-Validation
+* Visualization : WordCloud, Matplotlib.pyplot
 * Feature exctractor : TfidfVectorizer
 * Classifiers : MultinomialNB, LinearSVC, RandomForestClassifier
+
+# Dataset
+Enron Email Dataset which has 6 separate datasets that each contains about 6000 individual emails as described in the paper [31] was used in this study (Table-2). Each email message is in a separate text file includes numbers, alphabets and characters, also the number at the beginning of each filename is the "order of arrival". The dataset is more realistic than previous comparable benchmarks, because they maintain the temporal order of the messages in the two categories, and they emulate the varying proportion of spam and ham messages that users receive over time.
+
+![Enron_Dataset](https://github.com/MuhammetEmek/ham_spam_classification/blob/main/enron_dataset.png)
 
 # Evaluation
 LinearSVC classifier reached the highest accuracy and f1score, and also its performance (computation time) is near the MultinomialNB. On the other hands, it wasn’t affected by the size of dataset and class type (ham-spam) distribution, so it is very stable, consistent and efficient. 
