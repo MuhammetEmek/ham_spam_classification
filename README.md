@@ -23,6 +23,11 @@ Dataset url : http://www2.aueb.gr/users/ion/data/enron-spam/
 
 ![Enron_Dataset](https://github.com/MuhammetEmek/ham_spam_classification/blob/main/enron_dataset.png)
 
+# Data Virtualization
+Wordcloud which is a useful visualization tool for a rough estimate of the words that has the highest frequency in the data, was used for discover the distribution of term in dataset.
+
+![Data_Content](https://github.com/MuhammetEmek/ham_spam_classification/blob/main/data_content.png)
+
 # Evaluation
 LinearSVC classifier reached the highest accuracy and f1score, and also its performance (computation time) is near the MultinomialNB. On the other hands, it wasn’t affected by the size of dataset and class type (ham-spam) distribution, so it is very stable, consistent and efficient. 
 
