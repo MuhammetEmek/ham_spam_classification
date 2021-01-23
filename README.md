@@ -17,7 +17,9 @@ The main goal of this study is to design and develop a content based spam-ham cl
 * Classifiers : MultinomialNB, LinearSVC, RandomForestClassifier
 
 # Dataset
-Enron Email Dataset which has 6 separate datasets that each contains about 6000 individual emails as described in the paper [31] was used in this study (Table-2). Each email message is in a separate text file includes numbers, alphabets and characters, also the number at the beginning of each filename is the "order of arrival". The dataset is more realistic than previous comparable benchmarks, because they maintain the temporal order of the messages in the two categories, and they emulate the varying proportion of spam and ham messages that users receive over time.
+Enron Email Dataset which has 6 separate datasets that each contains about 6000 individual emails was used in this study. Each email message is in a separate text file includes numbers, alphabets and characters, also the number at the beginning of each filename is the "order of arrival". The dataset is more realistic than previous comparable benchmarks, because they maintain the temporal order of the messages in the two categories, and they emulate the varying proportion of spam and ham messages that users receive over time.
+
+Dataset url : http://www2.aueb.gr/users/ion/data/enron-spam/
 
 ![Enron_Dataset](https://github.com/MuhammetEmek/ham_spam_classification/blob/main/enron_dataset.png)
 
