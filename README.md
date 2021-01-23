@@ -16,3 +16,12 @@ The main goal of this study is to design and develop a content based spam-ham cl
 * Pipelines
 * Feature exctractor : TfidfVectorizer
 * Classifiers : MultinomialNB, LinearSVC, RandomForestClassifier
+
+# Evaluation
+LinearSVC classifier reached the highest accuracy and f1score, and also its performance (computation time) is near the MultinomialNB. On the other hands, it wasn’t affected by the size of dataset and class type (ham-spam) distribution, so it is very stable, consistent and efficient. 
+
+MultinomialNB classifier reached the best performance considering the computation time. Also its accuracy and f1score was close to LinearSVC results when trained and tested with whole dataset. But it was affected by the size of dataset and class type distribution. Depending the difference in ratio of ham and spam emails in the dataset, the recall value and f1-score can be change. The worst evaluation results were measured when the ratio of spam/ham was 1/3 by using Enron-1, Enron-2 and Enron-3. According to these results, this classifier isn’t consistent. 
+
+RandomForest classifier’s performance considering the computation time was the worst. There are approximately %2000 (20 times) difference between others, for this reason it isn’t not acceptable. Other evaluation results is close to LinearSVC. Finally, LinearSVC is better than the others according to the evaluation results compared above
+
+![Evaluation_Results](https://github.com/MuhammetEmek/ham_spam_classification/blob/main/evalution_result.PNG)
